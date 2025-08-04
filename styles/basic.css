@@ -29,3 +29,12 @@ p {
   max-width: 970px;
   padding: 0 10px;
 }
+
+.divider {
+  max-width: 420px;
+  height: 1px;
+  /* width: min(420px, 100%); */
+  background-color: var(--color-black);
+  border: none;
+  margin: 0 auto;
+}
