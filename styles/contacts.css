@@ -10,22 +10,22 @@
 }
 
 .contacts-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 210px;
   height: 42px;
   background-color: var(--color-black);
-  border: none;
   border-radius: 21px;
   margin: 75px 0 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--bg-main);
 }
 
 .contacts-button:hover {
   opacity: 0.8;
-}
-
-.button-link {
-  font-size: 24px;
-  font-weight: 500;
-  color: var(--bg-main);
 }
 
 .socials {
